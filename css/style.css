@@ -6,33 +6,42 @@
 
 /* Karma Navigation Section ============================================= */
 
+img.logo {
+  border: 0;
+  margin: 10px;
+}
+
 .top-navigation {
   background-color: #fff;
 }
 
-/** NOTES: ==================================================================
-* Affecting only the immediate child .content of the .top-navigation selector. 
-* "margin: 0 auto;" makes it centered within top-navigation. Width sets the 
-* width within the window. 
-
-* QUESTIONS: ================================================================
-* HEIGHT: sets the height of the nav bar? Doesn't this make more sense to set
-* within the top-navigation selector? */
 .top-navigation > .content {
   width: 970px;
   height: 70px;
   margin: 0 auto;
 }
 
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
 
+.top-navigation .links {
+  float: right;
+  color: #838994;
+  font-size: 1.05rem;
+  margin-top: 1.7rem;
+}
 
+/* Remove the dots in front of list item and make line up left to right. */
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.563rem;
+}
 
-
-
-
-
-
-
+ol, ul {
+  list-style: none;
+}
 
 
 
@@ -468,10 +477,3 @@ th {
   padding: 0;
 }
 
-
-body {
-    background-color: LightGray;
-}
-div {
-    border: 1px solid Chocolate;
-}
