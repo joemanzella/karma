@@ -4,7 +4,12 @@
 */
 
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, 
+samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, 
+aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, 
+ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -142,6 +147,50 @@ ol, ul {
 @media (min-width: 75rem) .content {
     width: 60%;
 }
+
+
+/* Karma CASES Section ============================================= */
+
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
+}
+
+.cases .content {
+  margin-top: 6rem;
+  padding: none;
+  color: #1d1e21;
+  text-align: center;
+}
+
+.cases .devices {
+  width: 975px;
+  margin: 0 auto;
+}
+
+.cases .devices > li {
+  width: 33.333333333%;
+  float: left;
+  border: 0;
+  box-sizing: border-box;
+  height: 4em;
+  display: inline-block;
+}
+
+.cases .devices h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+}
+
+
+
+
+
+
+
+
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
